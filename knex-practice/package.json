@@ -1,0 +1,34 @@
+{
+  "name": "express-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a boilerplate project used for starting new projects!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test/setup.js",
+    "dev": "nodemon src/practice.js",
+    "start": "node src/shopping-list-service.js",
+    "predeploy": "npm audit",
+    "deploy": "git push heroku master"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "knex": "^0.16.3",
+    "morgan": "^1.9.1",
+    "pg": "^7.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.4.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
