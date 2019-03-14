@@ -1,0 +1,22 @@
+INSERT INTO games (title, rating, size, genre)
+VALUES 
+('ROBLOX', 4.5, '67M', 'Adventure'),
+('Subway Surfers', 4.5, '76M','Arcade'),
+('Candy Crush Saga', 4.4, '56M', 'Casual'),
+('Solitaire', 4.7, '88M', 'Card'),
+('Bubble Shooter', 4.5, '44M', 'Casual'),
+('Hello Kitty Nail Salon', 4.2, '54M', 'Casual'),
+('slither.io', 4.4, '65', 'Action'),
+('Clash Royale', 4.6, '63M', 'Strategy'),
+('Temple Run 2', 4.3, '43M', 'Action'),
+('Pou', 4.3, '24M','Casual'),
+('Helix Jump', 4.2,'52M', 'Action'),
+('Block Puzzle', 4.6,'64M', 'Puzzle'),
+('Angry Birds Rio', 4.4,'114M', 'Arcade'),
+('Plants vs. Zombies', 4.4 ,'53M', 'Strategy'),
+('Sonic Dash', 4.5, '76M', 'Arcade'),
+('Candy Crush Soda Saga', 4.4, '98M', 'Casual'),
+('Zombie Hunter King', 4.3, '56M', 'Action'),
+('Clash of Clans', 4.6,'43M', 'Strategy'),
+('Kick the Buddy', 4.3,'12M', 'Action'),
+('Block Puzzle Classic Legend !', 4.2, '54M', 'Puzzle');
